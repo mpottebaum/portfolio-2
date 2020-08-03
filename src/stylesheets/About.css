@@ -1,0 +1,81 @@
+.abt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    height: 55pt;
+}
+
+.social-link {
+    margin: 2em;
+}
+
+.abt-card {
+    background-color: #F7EACA;
+    text-align: center;
+    min-width: 320px;
+    height: fit-content;
+    align-self: center;
+    border-radius: 9pt;
+    border: solid black;
+    margin-top: 2rem;
+    max-width: 920px;
+    padding-bottom: 1em;
+}
+
+.exp {
+    display: flex;
+    text-align: left;
+}
+
+.exp-title {
+    width: fit-content;
+    margin-top: 0.5em;
+}
+
+.exp-copy {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+
+.lg {
+    display: none;
+}
+
+.sm {
+    display: block;
+}
+
+.exp-comp {
+    background-color: #11D0A9;
+    color: white;
+    padding: 1.5em;
+    border-radius: 5pt;
+}
+
+@media (min-width: 900px) {
+    .exp-copy {
+        margin-right: 1em;
+    }
+    
+    .lg {
+        display: block;
+    }
+
+    .sm {
+        display: none;
+    }
+
+    .exp {
+        margin-top: 1.5em;
+    }
+}
