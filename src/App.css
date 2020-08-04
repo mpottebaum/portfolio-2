@@ -16,5 +16,37 @@ ul {
 }
 
 .main {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+
+.opt-card {
+  background-color: #F7EACA;
+  text-align: center;
+  height: fit-content;
+  align-self: center;
+  border-radius: 9pt;
+  border: solid black;
+  margin-top: 2em;
+  max-width: 700px;
+}
+
+@media (min-width: 1000px) {
+
+  .opt-card {
+    min-width: 600px;
+    margin-bottom: 0em;
+    margin-left: 2em;
+  }
+
+  .home {
+    flex-direction: row;
+  }
 }

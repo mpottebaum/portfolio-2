@@ -1,17 +1,15 @@
 import React from 'react'
 import '../stylesheets/Home.css'
 
-const Home = () => {
-    return <div className='home'>
-        <div className='home-card'>
+const Home = ({ opt, setOpt }) => {
+    return <div className='home-card'>
             <h1 className='home-name'>Mike Pottebaum</h1>
             <ul className='nav-list'>
-                <li className='nav'>software engineer</li>
-                <li className='nav'>writer</li>
-                <li className='nav'>musician</li>
+                <li className='nav' onClick={() => setOpt('se')} style={opt === 'se' ? {color: '#11D0A9'} : {}}>software engineer</li>
+                <li className='nav' onClick={() => setOpt('wri')} style={opt === 'wri' ? {color: '#11D0A9'} : {}}>writer</li>
+                <li className='nav' onClick={() => setOpt('mus')} style={opt === 'mus' ? {color: '#11D0A9'} : {}}>musician</li>
             </ul>
         </div>
-    </div>
 }
 
 export default Home

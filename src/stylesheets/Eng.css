@@ -1,0 +1,16 @@
+.eng-lists {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.projects {
+    max-width: 450px;
+}
+
+@media (min-width: 1000px) {
+
+    .eng-lists {
+        flex-direction: row;
+    }
+
+}
