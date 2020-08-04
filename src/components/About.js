@@ -17,7 +17,7 @@ const About = () => {
         </div>
     }
 
-    return <div className='abt'>
+    return <div id='abt' className='abt'>
         <div className='socials'>
             <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/Github.png' className='social' /></a>
             <a className='social-link' href='https://www.linkedin.com/in/mike-pottebaum/'><img src='/logos/linkedin.png' className='social' /></a>

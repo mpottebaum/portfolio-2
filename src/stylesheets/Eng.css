@@ -1,6 +1,25 @@
 .eng-lists {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0.5em
+}
+
+.eng-list {
+    text-align: left;
+}
+
+.eng-item {
+    margin: 1em;
+}
+
+.eng-item-title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.eng-item-title:hover {
+    color: #11D0A9;
 }
 
 .projects {
