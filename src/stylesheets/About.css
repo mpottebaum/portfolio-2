@@ -20,7 +20,7 @@
 
 .abt-card {
     min-width: 320px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     max-width: 920px;
     padding-bottom: 1em;
 }
