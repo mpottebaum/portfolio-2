@@ -19,7 +19,7 @@ const About = () => {
 
     return <div id='abt' className='abt'>
         <div className='socials'>
-            <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/Github.png' alt='GitHub Profile' className='social' /></a>
+            <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/GitHub.png' alt='GitHub Profile' className='social' /></a>
             <a className='social-link' href='https://www.linkedin.com/in/mike-pottebaum/'><img src='/logos/linkedin.png' alt='LinkedIn Profile' className='social' /></a>
         </div>
         <div className='card abt-card'>
