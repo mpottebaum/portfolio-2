@@ -56,9 +56,17 @@
     border-radius: 5pt;
 }
 
+.exp-list {
+    list-style-type: square;
+}
+
 @media (min-width: 900px) {
     .exp-copy {
         margin-right: 1em;
+    }
+
+    .exp-comp {
+        min-height: 350px;
     }
     
     .lg {

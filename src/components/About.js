@@ -19,11 +19,11 @@ const About = () => {
 
     return <div id='abt' className='abt'>
         <div className='socials'>
-            <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/Github.png' className='social' /></a>
-            <a className='social-link' href='https://www.linkedin.com/in/mike-pottebaum/'><img src='/logos/linkedin.png' className='social' /></a>
+            <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/Github.png' alt='GitHub Profile' className='social' /></a>
+            <a className='social-link' href='https://www.linkedin.com/in/mike-pottebaum/'><img src='/logos/linkedin.png' alt='LinkedIn Profile' className='social' /></a>
         </div>
         <div className='card abt-card'>
-            <h1 class='title exp-title'>Experience</h1>
+            <h1 className='title exp-title'>Experience</h1>
             <div className='exp'>
                 <div className='exp-menu'>
                     <p className='nav btn' onClick={() => setExp('cyb')} style={exp === 'cyb' ? {color: '#11D0A9'} : {}}>cybersecurity</p>
