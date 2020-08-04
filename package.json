@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "npx gh-pages -d build",
+    "deploy": "npx gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
