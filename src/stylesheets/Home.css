@@ -6,39 +6,11 @@
 }
 
 .home-card {
-    background-color: #F7EACA;
-    text-align: center;
     max-width: 320px;
-    height: fit-content;
-    align-self: center;
-    border-radius: 9pt;
-    border: solid black;
-}
-
-.home-name {
-    padding: 0.5em;
-}
-
-.nav-list {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.nav {
-    padding: 1em;
-    cursor: pointer;
-}
-
-.nav:hover {
-    color: #11D0A9;
 }
 
 @media (min-width: 380px) {
     .home-card {
         padding: 1em;
-    }
-
-    .home-name {
-        border: solid black;
     }
 }

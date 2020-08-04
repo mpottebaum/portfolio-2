@@ -31,7 +31,7 @@ function App() {
           <Home opt={opt} setOpt={setOpt} />
           {
             opt ?
-            <div className='opt-card'>
+            <div className='card opt-card'>
               {renderOpt()}
             </div>
             : null

@@ -19,13 +19,7 @@
 }
 
 .abt-card {
-    background-color: #F7EACA;
-    text-align: center;
     min-width: 320px;
-    height: fit-content;
-    align-self: center;
-    border-radius: 9pt;
-    border: solid black;
     margin-top: 2rem;
     max-width: 920px;
     padding-bottom: 1em;

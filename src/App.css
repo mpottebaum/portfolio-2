@@ -24,13 +24,18 @@ a {
   color: black;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .btn:hover {
   color: #11D0A9;
 }
 
 .main {
   min-height: 100vh;
-  padding: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .home {
@@ -40,16 +45,57 @@ a {
   height: 80%;
 }
 
-.opt-card {
+.title {
+  padding: 0.5em;
+}
+
+.nav-list {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.nav {
+  padding: 1em;
+}
+
+.card {
   background-color: #F7EACA;
   text-align: center;
   height: fit-content;
   align-self: center;
   border-radius: 9pt;
   border: solid black;
+}
+
+.opt-card {
   margin-top: 2em;
   min-width: 320px;
   max-width: 700px;
+}
+
+.lists {
+  padding: 0.5em
+}
+
+.list {
+  text-align: left;
+}
+
+.list-item {
+  margin: 1em;
+}
+
+.item-title {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+@media (min-width: 380px) {
+
+  .title {
+      border: solid black;
+  }
 }
 
 @media (min-width: 1000px) {

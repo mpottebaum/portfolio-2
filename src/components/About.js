@@ -22,19 +22,19 @@ const About = () => {
             <a className='social-link' href='https://github.com/mpottebaum'><img src='/logos/Github.png' className='social' /></a>
             <a className='social-link' href='https://www.linkedin.com/in/mike-pottebaum/'><img src='/logos/linkedin.png' className='social' /></a>
         </div>
-        <div className='abt-card'>
-            <h1 class='home-name exp-title'>Experience</h1>
+        <div className='card abt-card'>
+            <h1 class='title exp-title'>Experience</h1>
             <div className='exp'>
                 <div className='exp-menu'>
-                    <p className='nav' onClick={() => setExp('cyb')} style={exp === 'cyb' ? {color: '#11D0A9'} : {}}>cybersecurity</p>
+                    <p className='nav btn' onClick={() => setExp('cyb')} style={exp === 'cyb' ? {color: '#11D0A9'} : {}}>cybersecurity</p>
                     {renderSmExp('cyb')}
-                    <p className='nav' onClick={() => setExp('mus')} style={exp === 'mus' ? {color: '#11D0A9'} : {}}>music</p>
+                    <p className='nav btn' onClick={() => setExp('mus')} style={exp === 'mus' ? {color: '#11D0A9'} : {}}>music</p>
                     {renderSmExp('mus')}
-                    <p className='nav' onClick={() => setExp('adm')} style={exp === 'adm' ? {color: '#11D0A9'} : {}}>admin assistant</p>
+                    <p className='nav btn' onClick={() => setExp('adm')} style={exp === 'adm' ? {color: '#11D0A9'} : {}}>admin assistant</p>
                     {renderSmExp('adm')}
-                    <p className='nav' onClick={() => setExp('pay')} style={exp === 'pay' ? {color: '#11D0A9'} : {}}>payroll</p>
+                    <p className='nav btn' onClick={() => setExp('pay')} style={exp === 'pay' ? {color: '#11D0A9'} : {}}>payroll</p>
                     {renderSmExp('pay')}
-                    <p className='nav' onClick={() => setExp('shi')} style={exp === 'shi' ? {color: '#11D0A9'} : {}}>shipping/warehouse</p>
+                    <p className='nav btn' onClick={() => setExp('shi')} style={exp === 'shi' ? {color: '#11D0A9'} : {}}>shipping/warehouse</p>
                     {renderSmExp('shi')}
                 </div>
                 <div className='exp-copy lg'>
