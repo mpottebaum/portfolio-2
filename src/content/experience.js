@@ -15,7 +15,7 @@ export const experience = {
         dates: '2014-Present',
         desc: [
             'Writes and performs original music in a variety of genres.',
-            'Organized and promoted house shows with touring and local artists for 3 years'
+            'Organized and promoted house shows with touring and local artists for 3 years.'
         ]
         
     },

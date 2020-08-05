@@ -28,8 +28,8 @@ const Eng = () => {
                 <ul className='list'>
                     <li className='list-item'>JavaScript</li>
                     <li className='list-item'>React + Redux</li>
-                    <li className='list-item'>HTML5 + CSS3</li>
                     <li className='list-item'>Ruby on Rails</li>
+                    <li className='list-item'>HTML5 + CSS3</li>
                 </ul>
             </div>
         </div>
