@@ -8,24 +8,18 @@ const Eng = () => {
                 <h3>projects</h3>
                 <ul className='list'>
                     <li className='list-item'>
-                        <a href='https://github.com/mpottebaum/battle-chi'><h4 className='item-title btn'>Battle For Chicago</h4></a>
-                        <p>A strategic war board game.</p>
-                        <p className='project-tech'>React, Rails</p>
+                        <a href='https://github.com/mpottebaum/battle-chi'><h4 className='item-title btn'>2 player board game</h4></a>
+                        <p>UI: React</p>
+                        <p className='project-tech'>API: Rails</p>
                     </li>
                     <li className='list-item'>
-                        <a href='https://github.com/mpottebaum/search-newspapers'><h4 className='item-title btn'>SearchNewspapers</h4></a>
-                        <p>iOS app for searching historic newspapers.</p>
-                        <p className='project-tech'>React Native, Rails</p>
+                        <a href='https://github.com/mpottebaum/search-newspapers'><h4 className='item-title btn'>iSearchNewspapers</h4></a>
+                        <p>UI: React Native</p>
+                        <p className='project-tech'>API: Rails</p>
                     </li>
                     <li className='list-item'>
-                        <a href='https://github.com/mpottebaum/flatnote'><h4 className='item-title btn'>Flatnote</h4></a>
-                        <p>Note-taking app.</p>
-                        <p className='project-tech'>React, Rails</p>
-                    </li>
-                    <li className='list-item'>
-                        <a href='https://github.com/mpottebaum/trivia_app'><h4 className='item-title btn'>Trivia App</h4></a>
-                        <p>Create, share and play trivia games.</p>
-                        <p className='project-tech'>Rails</p>
+                        <a href='https://github.com/mpottebaum/portfolio-2'><h4 className='item-title btn'>This site</h4></a>
+                        <p>UI: React + CSS</p>
                     </li>
                 </ul>
             </div>
@@ -34,8 +28,8 @@ const Eng = () => {
                 <ul className='list'>
                     <li className='list-item'>JavaScript</li>
                     <li className='list-item'>React + Redux</li>
-                    <li className='list-item'>Ruby on Rails</li>
                     <li className='list-item'>HTML5 + CSS3</li>
+                    <li className='list-item'>Ruby on Rails</li>
                 </ul>
             </div>
         </div>
