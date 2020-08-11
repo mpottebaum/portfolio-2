@@ -3,7 +3,7 @@ import '../stylesheets/Mus.css'
 
 const Mus = () => {
     return <div className='lists'>
-        <h3>projects</h3>
+        <h3>project links</h3>
         <ul className='list'>
             <li className='list-item'>
                 <a href='https://elgrecoexplosive.bandcamp.com/'><h4 className='item-title btn'>El Greco Explosive</h4></a>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import Home from './components/Home'
 import About from './components/About'
 import Eng from './components/Eng'
@@ -33,7 +34,13 @@ function App() {
             <div className='card opt-card'>
               {renderOpt()}
             </div>
-            : null
+            :
+            <div className='exp-btn'>
+              <Link to='abt' smooth={true} offset={0} duration={500}>
+                <p className='btn exp-btn-txt'>My Experience</p>
+                <img alt='Scroll Down For My Experience' src='/icons/down-arrow.png' className='exp-arrow btn' />
+              </Link>
+            </div>
           }
         </div>
       </div>

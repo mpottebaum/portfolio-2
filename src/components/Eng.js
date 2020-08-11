@@ -5,7 +5,7 @@ const Eng = () => {
     return <div>
         <div className='lists eng-lists'>
             <div className='projects'>
-                <h3>projects</h3>
+                <h3>project links</h3>
                 <ul className='list'>
                     <li className='list-item'>
                         <a href='https://github.com/mpottebaum/battle-chi'><h4 className='item-title btn'>2 player board game</h4></a>
