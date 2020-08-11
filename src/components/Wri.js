@@ -3,7 +3,7 @@ import '../stylesheets/Wri.css'
 
 const Wri = () => {
     return <div className='lists'>
-        <h3>published stories</h3>
+        <h3>published story links</h3>
         <ul className='list'>
             <li className='list-item'>
                 <a href='https://medium.com/swlh/react-without-create-react-app-setting-up-a-dev-build-from-scratch-fefd5d9d6baa'><h4 className='item-title btn'>React without create-react-app</h4></a>

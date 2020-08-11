@@ -36,7 +36,7 @@ function App() {
             </div>
             :
             <div className='exp-btn'>
-              <Link to='abt' smooth={true} offset={50} duration={500}>
+              <Link to='abt' smooth={true} offset={0} duration={500}>
                 <p className='btn exp-btn-txt'>My Experience</p>
                 <img alt='Scroll Down For My Experience' src='/icons/down-arrow.png' className='exp-arrow btn' />
               </Link>
